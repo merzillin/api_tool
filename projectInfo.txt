@@ -1,0 +1,14 @@
+The application we building is used for api testing and sharing.
+
+when working it's hard to to test api and share it, current tools like swagger and postman lacks this.
+
+how the application behaves : -
+
+- user can set base url, then hee adds rest api part and choose the http methods
+- dynamic setting of request headers, 
+- dynamic payload passing in http request
+- response is displayed in a box with a clear formatting
+- user can store few api details in indexedDb, also show the memory status in top of the application header[ format : memory used / total memory]
+
+
+tech stack - react 18 with vite, typescript, tailwind css
